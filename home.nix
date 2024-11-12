@@ -24,6 +24,8 @@
   home.packages = with pkgs; [
   ];
   
+  # Tmux
+  programs.tmux.enable = true;
   # Kitty
   programs.kitty = {
     enable = true;
