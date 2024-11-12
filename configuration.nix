@@ -40,6 +40,18 @@
   services.desktopManager.plasma6.enable = true;
   services.displayManager.sddm.wayland.enable = true;
 
+  # Battrey
+  systemd.services.battery-charge-threshold = {
+    description = "Set the battery charge threshold";
+    after = [ "multi-user.target" ];
+    startLimitBurst = 0;
+    serviceConfig = {
+      Type = "oneshot";
+      Restart = "on-failure";
+      ExecStart = "${pkgs.bash}/bin/bash -c 'echo 80 > /sys/class/power_supply/BAT0/charge_control_end_threshold'";
+    };
+    wantedBy = [ "multi-user.target" ];
+  };
   # Configure keymap in X11
   # services.xserver.xkb.layout = "us";
   # services.xserver.xkb.options = "eurosign:e,caps:escape";
