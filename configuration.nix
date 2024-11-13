@@ -100,6 +100,7 @@
   environment.systemPackages = with pkgs; [
     vim
     wget
+    busybox
     corefonts
     jetbrains.phpstorm
     kitty   
