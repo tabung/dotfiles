@@ -8,6 +8,8 @@
     ./session.nix
     ./burp.nix
     ./sh.nix
+    ../users/apps/game/game.nix
+    ./vscode.nix
   ];
 
   nixpkgs.config.allowUnfree = true;
