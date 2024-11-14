@@ -9,12 +9,12 @@
 }:
 
 let
-  version = "2024.10.1";  # Update the version to v2024.10.1
+  version = "2024.8.5";  # Update the version to v2024.10.1
 
   product = {
     productName = "pro";  # Always use the pro edition
     productDesktop = "Burp Suite Professional Edition";
-    hash = "sha256-EpDTxui/6w5RD15vpVXsNRqcajovgQDjlzLqEDdbPgY=";  # Hash for the pro version
+    hash = "sha256-bG1+U16qRNnHHhjloUIMxBH7/zKRo0b3tEX1ebsClL4=";  # Hash for the pro version
   };
 
   src = fetchurl {
@@ -26,6 +26,8 @@ let
     ];
     hash = product.hash;
   };
+
+  loaderPath = ./loader.jar;
 
   pname = "burpsuite";
   description = "An integrated platform for performing security testing of web applications";
@@ -46,7 +48,20 @@ in
 buildFHSEnv {
   inherit pname version;
 
-  runScript = "${jdk}/bin/java -jar ${src}";
+  runScript = ''
+    # Copy loader.jar to the build output
+
+    # Run the Java command with the specified options
+    ${jdk}/bin/java \
+      --add-opens=java.desktop/javax.swing=ALL-UNNAMED \
+      --add-opens=java.base/java.lang=ALL-UNNAMED \
+      --add-opens=java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED \
+      --add-opens=java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED \
+      --add-opens=java.base/jdk.internal.org.objectweb.asm.Opcodes=ALL-UNNAMED \
+      -javaagent:${loaderPath} \
+      -noverify \
+      -jar ${src}
+  '';
 
   targetPkgs =
     pkgs: with pkgs; [
@@ -62,8 +77,9 @@ buildFHSEnv {
       jython
       libcanberra-gtk3
       libdrm
-      libudev0-shim
+      udev
       libxkbcommon
+      mesa
       nspr
       nss
       pango
