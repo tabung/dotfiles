@@ -8,6 +8,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ./modules/fonts.txt
     ];
 
   # Use the systemd-boot EFI boot loader.
@@ -101,7 +102,6 @@
     vim
     wget
     busybox
-    corefonts
     jetbrains.phpstorm
     kitty   
     libreoffice-qt
@@ -112,7 +112,22 @@
     git
     nodejs
     python3
+    ripgrep
+    fd
+    lazygit
+    luarocks
+    gcc
+    unzip
+    zip
   ];
+
+  # Nvim
+  programs.neovim = {
+    enable = true;
+    defaultEditor = true;
+    viAlias = true;
+    vimAlias = true;
+  };
 
   # Virtualization
   virtualisation.docker.enable = true;
