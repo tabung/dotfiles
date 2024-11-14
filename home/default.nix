@@ -7,6 +7,7 @@
     ./file.nix
     ./session.nix
     ./sh.nix
+    ../users/apps/burpsuite/default.nix
   ];
 
   home.username = "r3z";
