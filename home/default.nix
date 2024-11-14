@@ -6,9 +6,11 @@
     ./tmux.nix
     ./file.nix
     ./session.nix
+    ./burp.nix
     ./sh.nix
-    ../users/apps/burpsuite/default.nix
   ];
+
+  nixpkgs.config.allowUnfree = true;
 
   home.username = "r3z";
   home.homeDirectory = "/home/r3z";

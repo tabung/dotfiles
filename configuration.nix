@@ -9,12 +9,13 @@
     [ # Include the results of the hardware scan.
       #./hardware-configuration.nix
       ./systems/hardware/default.nix
-      ./modules/fonts.txt
+      ./modules/fonts.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
+  boot.supportedFilesystems = [ "ntfs" ];
 
   networking.hostName = "devzc0de"; # Define your hostname.
   # Pick only one of the below networking options.
@@ -108,6 +109,7 @@
     libreoffice-qt
     hunspell
     hunspellDicts.en_US
+    jdk21
     kget
     obsidian
     git
