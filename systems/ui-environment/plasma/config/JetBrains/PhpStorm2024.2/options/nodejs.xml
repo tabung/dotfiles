@@ -1,7 +1,0 @@
-<application>
-  <component name="NodeJsLocalInterpreterManager">
-    <local-interpreter path="/run/current-system/sw/bin/node">
-      <version-cache version="20.18.0" last-modified="1000" />
-    </local-interpreter>
-  </component>
-</application>

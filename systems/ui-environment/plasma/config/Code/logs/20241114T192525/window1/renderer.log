@@ -1,9 +1,0 @@
-2024-11-14 19:25:26.471 [info] Started local extension host with pid 79884.
-2024-11-14 19:25:27.068 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
-2024-11-14 19:25:27.068 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
-2024-11-14 19:25:27.567 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
-2024-11-14 19:25:27.567 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
-2024-11-14 19:25:29.141 [info] [perf] Render performance baseline is 22ms
-2024-11-14 19:26:20.380 [info] Started local extension host with pid 80029.
-2024-11-14 19:26:20.770 [info] Settings Sync: Updating authentication providers. Authentication Providers from store: [{"id":"github","scopes":["user:email"]},{"id":"microsoft","scopes":["openid","profile","email","offline_access"]}]
-2024-11-14 19:26:20.770 [info] Settings Sync: Authentication providers updated ["github","microsoft"]
