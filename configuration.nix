@@ -10,6 +10,7 @@
       #./hardware-configuration.nix
       ./systems/hardware/default.nix
       ./modules/fonts.nix
+      ./systems/ui-environment/plasma/default.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
@@ -24,10 +25,10 @@
   time.timeZone = "Asia/Jakarta";
 
   # Enable the X11 windowing system.
-  services.xserver.enable = true;
-  services.displayManager.sddm.enable = true;
-  services.desktopManager.plasma6.enable = true;
-  services.displayManager.sddm.wayland.enable = true;
+  # services.xserver.enable = true;
+  # services.displayManager.sddm.enable = true;
+  # services.desktopManager.plasma6.enable = true;
+  # services.displayManager.sddm.wayland.enable = true;
 
   # Btrfs
   services.btrfs.autoScrub = {
@@ -90,7 +91,7 @@
     vim
     wget
     busybox
-    jetbrains.phpstorm
+    
     kitty   
     libreoffice-qt
     hunspell
