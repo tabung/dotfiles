@@ -5,7 +5,7 @@ let
     ll = "ls -l";
     update = "sudo nixos-rebuild switch --flake ~/.dotfiles";
     homein = "home-manager switch --flake ~/.dotfiles";
-    upgrade = "nix flake update && sudo nixos-rebuild switch --flake ~/.dotfiles";
+    upgrade = "cd ~/.dotfiles && nix flake update && sudo nixos-rebuild switch --flake ~/.dotfiles";
   };
 in
 {
