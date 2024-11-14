@@ -1,0 +1,14 @@
+2024-11-14 17:51:51.492 [info] Configuration changed
+2024-11-14 17:52:12.446 [info] Active editor: file:///home/r3z/.dotfiles/configuration.nix
+2024-11-14 17:52:12.454 [info] /home/r3z/.dotfiles/users/apps/burpsuite/burp.nix.git closed
+2024-11-14 17:52:38.238 [info] Executing :wq
+2024-11-14 17:52:38.270 [info] /home/r3z/.dotfiles/configuration.nix closed
+2024-11-14 17:52:38.271 [warning] getLineLength() called with out-of-bounds line 25
+2024-11-14 17:52:38.271 [warning] invalid cursor position. [[25, 2] | [25, 2]].
+2024-11-14 17:52:38.274 [info] Active editor: file:///home/r3z/.dotfiles/users/apps/burpsuite/burp.nix
+2024-11-14 17:52:38.280 [info] /home/r3z/.dotfiles/configuration.nix.git closed
+2024-11-14 17:52:39.948 [info] Executing :wq
+2024-11-14 17:52:39.961 [info] /home/r3z/.dotfiles/users/apps/burpsuite/burp.nix closed
+2024-11-14 17:52:39.961 [info] /home/r3z/.dotfiles/users/apps/burpsuite/burp.nix.git closed
+2024-11-14 17:52:39.961 [warning] getLineLength() called with out-of-bounds line 19
+2024-11-14 17:52:39.961 [warning] getLineLength() called with out-of-bounds line 19

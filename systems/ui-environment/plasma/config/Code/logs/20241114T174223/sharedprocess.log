@@ -1,0 +1,41 @@
+2024-11-14 17:42:27.038 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/r3z/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/r3z/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-14 17:42:27.380 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/r3z/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/r3z/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-14 17:42:28.317 [info] Getting Manifest... zhuangtongfa.material-theme
+2024-11-14 17:42:28.772 [info] Installing extension: zhuangtongfa.material-theme {"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/r3z/.vscode/extensions/extensions.json","path":"/home/r3z/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-11-14 17:42:29.424 [info] Extension signature verification result for zhuangtongfa.material-theme: UnknownError. Executed: true. Duration: 9ms.
+2024-11-14 17:42:29.476 [info] Extracted extension to file:///home/r3z/.vscode/extensions/zhuangtongfa.material-theme-3.17.6: zhuangtongfa.material-theme
+2024-11-14 17:42:29.479 [info] Renamed to /home/r3z/.vscode/extensions/zhuangtongfa.material-theme-3.17.6
+2024-11-14 17:42:29.487 [info] Marked extension as uninstalled zhuangtongfa.material-theme-3.16.2
+2024-11-14 17:42:29.488 [info] Extension installed successfully: zhuangtongfa.material-theme vscode-userdata:/home/r3z/.vscode/extensions/extensions.json
+2024-11-14 17:42:29.558 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/r3z/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/r3z/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-14 17:42:42.272 [info] Getting Manifest... bbenoist.nix
+2024-11-14 17:42:42.344 [info] Installing extension: bbenoist.nix {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/r3z/.vscode/extensions/extensions.json","path":"/home/r3z/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-14 17:42:43.106 [info] Extension signature verification result for bbenoist.nix: UnknownError. Executed: true. Duration: 11ms.
+2024-11-14 17:42:43.113 [info] Extracted extension to file:///home/r3z/.vscode/extensions/bbenoist.nix-1.0.1: bbenoist.nix
+2024-11-14 17:42:43.115 [info] Renamed to /home/r3z/.vscode/extensions/bbenoist.nix-1.0.1
+2024-11-14 17:42:43.125 [info] Extension installed successfully: bbenoist.nix vscode-userdata:/home/r3z/.vscode/extensions/extensions.json
+2024-11-14 17:42:43.195 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/r3z/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/r3z/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)

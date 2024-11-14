@@ -1,0 +1,1205 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="inlislite" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="2zvn7940yhdcv" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/common/models/base/AkuisisiMap.php">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="-1933" />
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"AkuisisiMap.php","foregroundColor":-5524801,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/common/models/base/AkuisisiRaw.php">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="-2851" />
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"AkuisisiRaw.php","foregroundColor":-5524801,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/common/models/base/AkuisisiRawLog.php">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="-2905" />
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"AkuisisiRawLog.php","foregroundColor":-5524801,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/common/models/base/AkuisisiWorksheet.php">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="-2257" />
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"AkuisisiWorksheet.php","foregroundColor":-5524801,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/common/models/base/Applications.php">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="-3067" />
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Applications.php","foregroundColor":-5524801,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/common/models/base/AuthAssignment.php">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="-2716" />
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"AuthAssignment.php","foregroundColor":-5524801,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/common/models/base/AuthData.php">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="-2754" />
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"AuthData.php","foregroundColor":-5524801,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/common/models/base/AuthHeader.php">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="-2697" />
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"AuthHeader.php","foregroundColor":-5524801,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
+      </file>
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/components/Nik.php">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="-405">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Nik.php","foregroundColor":-5524801,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/common/models/base/AuthCatalog.php">
+          <provider editor-type-id="text-editor" selected="true">
+            <state relative-caret-position="-2392" />
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"AuthCatalog.php","foregroundColor":-5524801,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,62,10,15,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,18,21,101,120,112,117,105,47,110,111,100,101,115,47,99,108,97,115,115,46,115,118,103,26,12,99,111,109,46,105,110,116,101,108,108,105,106,40,-63,-37,-81,-57,4,48,0]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "PHP": {
+      "usageCount": 56,
+      "lastUsed": 1731587019899
+    },
+    "WebPreview": {
+      "usageCount": 1,
+      "lastUsed": 1731571245725
+    }
+  }
+}]]></component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find />
+      <find>session</find>
+      <find>opacLogs</find>
+      <find>log</find>
+      <find>:id</find>
+      <find>:catID</find>
+      <find>opaclog</find>
+      <find>$idLoc</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/opac/controllers/BookingController.php" />
+      <option value="$PROJECT_DIR$/opac/controllers/BookmarkController.php" />
+      <option value="$PROJECT_DIR$/opac/controllers/PencarianSederhanaController.php" />
+      <option value="$PROJECT_DIR$/opac/controllers/BrowseController.php" />
+      <option value="$PROJECT_DIR$/opac/controllers/PencarianLanjutController.php" />
+      <option value="$PROJECT_DIR$/opac/controllers/SearchController.php" />
+      <option value="$PROJECT_DIR$/opac/controllers/SiteController.php" />
+      <option value="$PROJECT_DIR$/peminjamanmandiri/controllers/SiteController.php" />
+      <option value="$PROJECT_DIR$/pengembalianmandiri/controllers/SiteController.php" />
+    </changedPaths>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="PHP">
+      <summary usageCount="56" lastUsage="1731587019899" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="inlislite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inlislite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/common}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inlislite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/common}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/common/components}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inlislite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/common}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/common/config}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="inlislite" />
+            <item name="inlislite" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="inlislite" />
+              <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite}" type="462c0819:PsiDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/api" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="api" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/api}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/article" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="article" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/article}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/assets" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="assets" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/assets}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/bacaditempat" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="bacaditempat" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/bacaditempat}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/backend" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="backend" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/backend}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/common" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="common" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/common}" type="462c0819:PsiDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/common/components" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="components" />
+                  <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/common/components}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/behaviors" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="behaviors" />
+                    <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/common/components/behaviors}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/Marc" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="Marc" />
+                    <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/common/components/Marc}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/xsl" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="xsl" />
+                    <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/common/components/xsl}" type="462c0819:PsiDirectoryNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/ActiveResponse.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="ActiveResponse.php" />
+                    <item name="ActiveResponse.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/Alert.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="Alert.php" />
+                    <item name="Alert.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/BackupHelpers.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="BackupHelpers.php" />
+                    <item name="BackupHelpers.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/CatalogHelpers.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="CatalogHelpers.php" />
+                    <item name="CatalogHelpers.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/CatalogHelpers2.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="CatalogHelpers2.php" />
+                    <item name="CatalogHelpers2.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/CleanVendorsController.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="CleanVendorsController.php" />
+                    <item name="CleanVendorsController.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/CollectionHelpers.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="CollectionHelpers.php" />
+                    <item name="CollectionHelpers.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/Conditionalvalidator.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="Conditionalvalidator.php" />
+                    <item name="Conditionalvalidator.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/Config.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="Config.php" />
+                    <item name="Config.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/DirectoryHelpers.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="DirectoryHelpers.php" />
+                    <item name="DirectoryHelpers.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/EJCropper.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="EJCropper.php" />
+                    <item name="EJCropper.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/ElasticHelper.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="ElasticHelper.php" />
+                    <item name="ElasticHelper.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/HarvestTajukSubjek.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="HarvestTajukSubjek.php" />
+                    <item name="HarvestTajukSubjek.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/Helpers.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="Helpers.php" />
+                    <item name="Helpers.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/HtmlString.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="HtmlString.php" />
+                    <item name="HtmlString.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/IConfig.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/interface.svg" iconPlugin="com.intellij" isLeaf="true" text="IConfig.php" />
+                    <item name="IConfig.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/LocationComponent.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="LocationComponent.php" />
+                    <item name="LocationComponent.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/MarcHelpers.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="MarcHelpers.php" />
+                    <item name="MarcHelpers.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/MemberHelpers.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="MemberHelpers.php" />
+                    <item name="MemberHelpers.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/Nik.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="Nik.php" />
+                    <item name="Nik.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/OpacHelpers.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="OpacHelpers.php" />
+                    <item name="OpacHelpers.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/PageSize.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="PageSize.php" />
+                    <item name="PageSize.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/ReadHttpHeader.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="ReadHttpHeader.php" />
+                    <item name="ReadHttpHeader.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/REDME" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="REDME" />
+                    <item name="REDME" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/Registrasi.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="Registrasi.php" />
+                    <item name="Registrasi.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/SirkulasiComponent.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="SirkulasiComponent.php" />
+                    <item name="SirkulasiComponent.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/components/SirkulasiHelpers.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/nodes/class.svg" iconPlugin="com.intellij" isLeaf="true" text="SirkulasiHelpers.php" />
+                    <item name="SirkulasiHelpers.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/common/config" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="config" />
+                  <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/common/config}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/config/.gitignore" />
+                      </map>
+                    </attributes>
+                    <data iconPath="expui/fileTypes/ignored.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                    <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/config/bootstrap.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/expui/php.svg" iconPlugin="com.jetbrains.php" isLeaf="true" text="bootstrap.php" />
+                    <item name="bootstrap.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/config/main.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/expui/php.svg" iconPlugin="com.jetbrains.php" isLeaf="true" text="main.php" />
+                    <item name="main.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/config/main-local.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/expui/php.svg" iconPlugin="com.jetbrains.php" isLeaf="true" text="main-local.php" />
+                    <item name="main-local.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/config/params.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/expui/php.svg" iconPlugin="com.jetbrains.php" isLeaf="true" text="params.php" />
+                    <item name="params.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/common/config/params-local.php" />
+                      </map>
+                    </attributes>
+                    <data iconPath="icons/expui/php.svg" iconPlugin="com.jetbrains.php" isLeaf="true" text="params-local.php" />
+                    <item name="params-local.php" type="88303cf5:PhpFileNode" />
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/common/mail" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="mail" />
+                  <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/common/mail}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/common/models" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="models" />
+                  <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/common/models}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/common/widgets" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="widgets" />
+                  <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/common/widgets}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/console" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="console" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/console}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/db" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="true" text="db" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/db}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/digitalcollection" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="digitalcollection" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/digitalcollection}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/environments" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="environments" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/environments}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/frontend" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="frontend" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/frontend}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/guestbook" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="guestbook" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/guestbook}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/inliscore" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="inliscore" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/inliscore}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/keanggotaan_test" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="keanggotaan_test" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/keanggotaan_test}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/opac" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="opac" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/opac}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/peminjamanmandiri" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="peminjamanmandiri" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/peminjamanmandiri}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/pengembalianmandiri" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="pengembalianmandiri" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/pengembalianmandiri}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/tests" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="tests" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/tests}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/uploaded_files" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="uploaded_files" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/uploaded_files}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/vendor" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="vendor" />
+                <item name="dir{file:///home/r3z/DockerLab/container/inlis/inlislite/vendor}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.bowerrc" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text=".bowerrc" />
+                <item name=".bowerrc" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/ignored.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.htaccess" />
+                  </map>
+                </attributes>
+                <data iconPath="fileTypes/htaccess.svg" iconPlugin="com.intellij" isLeaf="true" text=".htaccess" />
+                <item name=".htaccess" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/admin.php" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/php.svg" iconPlugin="com.jetbrains.php" isLeaf="true" text="admin.php" />
+                <item name="admin.php" type="88303cf5:PhpFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/composer.json" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/json.svg" iconPlugin="com.intellij" isLeaf="true" text="composer.json" />
+                <item name="composer.json" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/composer.lock" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/json.svg" iconPlugin="com.intellij" isLeaf="true" text="composer.lock" />
+                <item name="composer.lock" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/favicon.ico" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="favicon.ico" />
+                <item name="favicon.ico" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/favicon.png" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/image.svg" iconPlugin="com.intellij" isLeaf="true" text="favicon.png" />
+                <item name="favicon.png" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/index.php" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/php.svg" iconPlugin="com.jetbrains.php" isLeaf="true" text="index.php" />
+                <item name="index.php" type="88303cf5:PhpFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/indexing.cmd" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="indexing.cmd" />
+                <item name="indexing.cmd" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/robots.txt" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="robots.txt" />
+                <item name="robots.txt" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/yii" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/expui/php.svg" iconPlugin="com.jetbrains.php" isLeaf="true" text="yii" />
+                <item name="yii" type="88303cf5:PhpFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/yii.bat" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="yii.bat" />
+                <item name="yii.bat" type="ab9368bb:PsiFileNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/nodes/library.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="expui/fileTypes/scratches.svg" iconPlugin="com.intellij" isLeaf="false" text="Scratches and Consoles" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2765000" />
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22213542" />
+      <window_info id="Commit" order="1" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Problems" order="1" />
+      <window_info anchor="bottom" id="Problems View" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Services" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.32969433" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="AIAssistant" order="1" weight="0.2408854" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.25" />
+      <unified_weights bottom="0.32969433" left="0.22213542" right="0.2408854" />
+    </layoutV2>
+    <recentWindows>
+      <value>Project</value>
+      <value>Find</value>
+      <value>AIAssistant</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="211" y="0" key="SettingsEditor" timestamp="1731586890396">
+      <screen x="0" y="0" width="1920" height="1145" />
+    </state>
+    <state x="464" y="201" key="SettingsEditor.ideScale=125" timestamp="1731571377282">
+      <screen x="0" y="0" width="1920" height="1145" />
+    </state>
+    <state x="464" y="201" key="SettingsEditor.ideScale=125/0.0.1920.1145/1920.0.1708.960@0.0.1920.1145" timestamp="1731571377282" />
+    <state x="211" y="0" key="SettingsEditor/0.0.1920.1145/1920.0.1708.960@0.0.1920.1145" timestamp="1731586890396" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/common/models/CollectionSearchKardeks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="164" column="10" lean-forward="true" selection-start-line="151" selection-start-column="7" selection-end-line="164" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/SerialArticlesSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="116" column="20" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/components/OpacHelpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1155">
+          <caret line="109" column="101" selection-start-line="109" selection-start-column="101" selection-end-line="109" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opac/controllers/BookingController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="92" column="67" selection-start-line="92" selection-start-column="57" selection-end-line="92" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opac/controllers/BrowseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="145" column="39" selection-start-line="145" selection-start-column="31" selection-end-line="145" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opac/controllers/BookmarkController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="415" column="64" lean-forward="true" selection-start-line="415" selection-start-column="64" selection-end-line="415" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opac/controllers/DetailOpacController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opac/controllers/KeranjangController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opac/controllers/PencarianLanjutController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="428" column="16" lean-forward="true" selection-start-line="414" selection-start-column="14" selection-end-line="428" selection-end-column="16" />
+          <folding>
+            <element signature="e#36#44#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opac/controllers/RiwayatPencarianController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opac/controllers/PencarianSederhanaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="669" column="49" lean-forward="true" selection-start-line="668" selection-start-column="36" selection-end-line="669" selection-end-column="49" />
+          <folding>
+            <element signature="e#36#44#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guestbook/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="340" column="5" lean-forward="true" selection-start-line="326" selection-start-column="4" selection-end-line="340" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/db/BaseActiveRecord.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="99" column="27" selection-start-line="99" selection-start-column="27" selection-end-line="99" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/Memberguesses.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opac/controllers/UsulanKoleksiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1053" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opac/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="414" column="5" selection-start-line="414" selection-start-column="5" selection-end-line="414" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/opac/controllers/SearchController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2735">
+          <caret line="825" column="49" selection-start-line="825" selection-start-column="49" selection-end-line="825" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/peminjamanmandiri/controllers/MemberguessesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="114" column="33" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/peminjamanmandiri/controllers/MembersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-372">
+          <caret line="103" column="66" selection-start-line="103" selection-start-column="57" selection-end-line="103" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/components/SirkulasiHelpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-475">
+          <caret line="504" column="27" selection-start-line="504" selection-start-column="27" selection-end-line="504" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/peminjamanmandiri/controllers/PrintController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="219" column="9" lean-forward="true" selection-start-line="212" selection-start-column="7" selection-end-line="219" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pengembalianmandiri/controllers/MemberguessesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2343" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bacaditempat/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="247" column="5" lean-forward="true" selection-start-line="232" selection-start-column="4" selection-end-line="247" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pengembalianmandiri/controllers/MembersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-426">
+          <caret line="101" column="45" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pengembalianmandiri/controllers/PrintController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-534">
+          <caret line="220" lean-forward="true" selection-start-line="220" selection-end-line="220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/peminjamanmandiri/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="266" column="5" lean-forward="true" selection-start-line="251" selection-start-column="4" selection-end-line="266" selection-end-column="5" />
+          <folding>
+            <element signature="e#48#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/base/Pelanggaran.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-297">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/Agama.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pengembalianmandiri/controllers/SiteController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4131">
+          <caret line="1156" column="89" selection-start-line="1156" selection-start-column="82" selection-end-line="1156" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/base/Agama.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2581" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/base/Akuisisi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/base/AkuisisiAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1258" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/base/AkuisisiActionLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1258" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/base/AkuisisiActionMaster.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/base/AkuisisiData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2824" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/base/AkuisisiLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3499" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/base/AkuisisiMap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1933" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/base/AkuisisiRaw.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2851" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/base/AkuisisiRawLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2905" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/base/AkuisisiWorksheet.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2257" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/base/Applications.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3067" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/base/AuthAssignment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2716" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/base/AuthCatalog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2392" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/base/AuthData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2754" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/models/base/AuthHeader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2697" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/components/Nik.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

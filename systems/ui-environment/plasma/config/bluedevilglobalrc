@@ -1,0 +1,8 @@
+[Adapters]
+F4:6A:DD:5E:64:CC_powered=true
+
+[Devices]
+connectedDevices=
+
+[Global]
+launchState=enable

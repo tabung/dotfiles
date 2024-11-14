@@ -1,0 +1,13 @@
+[General]
+LastUsedVersion=210800
+
+[MainWindow]
+MenuBar=Disabled
+ToolBarsMovable=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/wallpaperflare.com_wallpaper.jpg
+Name1[$e]=wallpaperflare.com_wallpaper.jpg
+
+[SideBar]
+InformationSplitterSizes=0,0

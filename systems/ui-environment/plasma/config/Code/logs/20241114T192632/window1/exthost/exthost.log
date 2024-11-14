@@ -1,0 +1,12 @@
+2024-11-14 19:26:33.436 [info] Extension host with pid 80269 started
+2024-11-14 19:26:33.436 [info] Skipping acquiring lock for /home/r3z/.config/Code/User/workspaceStorage/22377b583e56b668f4fe8c9cb0b60200.
+2024-11-14 19:26:33.617 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-14 19:26:33.758 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-11-14 19:26:33.797 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-11-14 19:26:33.865 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-11-14 19:26:33.952 [info] Eager extensions activated
+2024-11-14 19:26:33.968 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 19:26:33.970 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 19:26:33.986 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 19:26:33.999 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2024-11-14 19:26:34.195 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'

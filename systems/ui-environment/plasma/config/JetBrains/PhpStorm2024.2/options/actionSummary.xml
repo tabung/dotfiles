@@ -1,0 +1,91 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Delete">
+      <i c="8" l="1731586125659" />
+    </e>
+    <e n="$SelectAll">
+      <i c="5" l="1731585826289" />
+    </e>
+    <e n="$Undo">
+      <i c="5" l="1731585815401" />
+    </e>
+    <e n="CloseAllEditorsButActive">
+      <i c="2" l="1731585688173" />
+    </e>
+    <e n="CommentByLineComment">
+      <i c="7" l="1731584693426" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="26" l="1731586889967" />
+    </e>
+    <e n="EditorCopy">
+      <i c="46" l="1731585768202" />
+    </e>
+    <e n="EditorDelete">
+      <i c="2" l="1731571321398" />
+    </e>
+    <e n="EditorEnter">
+      <i c="2" l="1731585481798" />
+    </e>
+    <e n="EditorIndentSelection">
+      <i c="11" l="1731585808785" />
+    </e>
+    <e n="EditorPaste">
+      <i c="24" l="1731585803841" />
+    </e>
+    <e n="EditorRight">
+      <i c="2" l="1731585485870" />
+    </e>
+    <e n="EditorRightWithSelection">
+      <i c="1" l="1731584336228" />
+    </e>
+    <e n="EditorTab">
+      <i c="3" l="1731583767593" />
+    </e>
+    <e n="EditorUnindentSelection">
+      <i c="66" l="1731585828613" />
+    </e>
+    <e n="Find">
+      <i c="17" l="1731585732515" />
+    </e>
+    <e n="GotoDeclaration">
+      <i c="10" l="1731585916167" />
+    </e>
+    <e n="MarkExcludeRoot">
+      <i c="3" l="1731585997304" />
+    </e>
+    <e n="ReformatCode">
+      <i c="3" l="1731585830136" />
+    </e>
+    <e n="SaveAll">
+      <i c="34" l="1731585831384" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="2" l="1731583803233" />
+    </e>
+    <e n="ShowSettings">
+      <i c="3" l="1731586878899" />
+    </e>
+    <e n="WelcomeScreen.OpenDirectoryProject">
+      <i c="1" l="1731571223912" />
+    </e>
+    <e n="com.intellij.find.editorHeaderActions.NextOccurrenceAction">
+      <i c="29" l="1731585734579" />
+    </e>
+    <e n="com.intellij.find.editorHeaderActions.SwitchToFind">
+      <i c="2" l="1731584679849" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="24" l="1731586909550" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="1" l="1731571247832" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="3" l="1731586861341" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="4" l="1731586120943" />
+    </e>
+  </component>
+</application>

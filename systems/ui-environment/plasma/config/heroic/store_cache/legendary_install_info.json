@@ -1,0 +1,48 @@
+{
+	"9d2d0eb64d5c44529cece33fe2a46482": {
+		"game": {
+			"app_name": "9d2d0eb64d5c44529cece33fe2a46482",
+			"title": "Grand Theft Auto V",
+			"version": "1.0.3351.0_v2",
+			"platform_versions": {
+				"Windows": "1.0.3351.0_v2"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 7498885,
+			"type": "binary",
+			"version": 21,
+			"feature_level": 21,
+			"app_name": "9d2d0eb64d5c44529cece33fe2a46482",
+			"launch_exe": "PlayGTAV.exe",
+			"launch_command": "",
+			"build_version": "1.0.3351.0_v2",
+			"build_id": "smdeSeFoskuqdBWgzbRJUA",
+			"prerequisites": null,
+			"uninstaller": {
+				"path": "GTA5_BE.exe",
+				"args": "4 0"
+			},
+			"install_tags": [
+				""
+			],
+			"num_files": 426,
+			"num_chunks": 115366,
+			"disk_size": 121238610833,
+			"download_size": 119131506754,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"__timestamp": {
+		"9d2d0eb64d5c44529cece33fe2a46482": "Thu Nov 14 2024 16:45:38 GMT+0700 (GMT+07:00)"
+	}
+}

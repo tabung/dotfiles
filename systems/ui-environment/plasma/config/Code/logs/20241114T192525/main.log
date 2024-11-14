@@ -1,0 +1,5 @@
+2024-11-14 19:25:25.893 [info] update#setState idle
+2024-11-14 19:25:55.864 [info] update#setState checking for updates
+2024-11-14 19:25:55.897 [info] update#setState idle
+2024-11-14 19:26:20.289 [info] Extension host with pid 79884 exited with code: 0, signal: unknown.
+2024-11-14 19:26:29.920 [info] Extension host with pid 80029 exited with code: 0, signal: unknown.

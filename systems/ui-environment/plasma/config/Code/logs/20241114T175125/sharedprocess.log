@@ -1,0 +1,21 @@
+2024-11-14 17:51:39.437 [info] Uninstalling extension from the profile: zhuangtongfa.material-theme@3.17.6 vscode-userdata:/home/r3z/.vscode/extensions/extensions.json
+2024-11-14 17:51:39.453 [info] Marked extension as uninstalled zhuangtongfa.material-theme-3.17.6
+2024-11-14 17:51:39.524 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/r3z/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/r3z/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
+2024-11-14 17:51:39.815 [info] Successfully uninstalled extension from the profile zhuangtongfa.material-theme@3.17.6 vscode-userdata:/home/r3z/.vscode/extensions/extensions.json
+2024-11-14 17:51:42.202 [info] Getting Manifest... zhuangtongfa.material-theme
+2024-11-14 17:51:43.084 [info] Installing extension: zhuangtongfa.material-theme {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/r3z/.vscode/extensions/extensions.json","path":"/home/r3z/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.95.2","date":"2024-11-07T11:07:22.054Z"}}
+2024-11-14 17:51:43.121 [info] Removed the extension from uninstalled list: zhuangtongfa.material-theme
+2024-11-14 17:51:43.131 [info] Extension installed successfully: zhuangtongfa.material-theme vscode-userdata:/home/r3z/.vscode/extensions/extensions.json
+2024-11-14 17:51:43.192 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/r3z/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/r3z/.vscode/extensions/extensions.json.vsctmp'
+    at hm.create (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39254)
+    at Es (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39361)
+    at Fr.ib (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22677)
+    at Fr.stat (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:16010)
+    at async Zl.stat (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84491)
+    at async Jl.yb (file:///nix/store/fya3nn0jaxq7y8klzzwpi0wwjmr7yk0y-vscode-1.95.2/lib/vscode/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66605)
