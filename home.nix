@@ -1,6 +1,11 @@
 { config, pkgs, ... }:
 
 {
+
+  imports = [
+    ./users/app/code-editor/vscode.nix
+  ];
+
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
   home.username = "tabun";
@@ -12,7 +17,7 @@
   # environment.
   home.packages = with pkgs; [
     waybar
-    bibata-cursors
+    #bibata-cursors
     flat-remix-gtk
     adwaita-icon-theme
     tmux
@@ -20,11 +25,21 @@
   ];
 
   home.pointerCursor = {
-    gtk.enable = true;
-    package = pkgs.bibata-cursors;
-    name = "Bibata-Modern-Classic";
-    size = 6;
+    name = "Adwaita";
+    package = pkgs.adwaita-icon-theme;
+    size = 10;
+    x11 = {
+      enable = true;
+      defaultCursor = "Adwaita";
+    };
   };
+
+#  home.pointerCursor = {
+#    gtk.enable = true;
+#    package = pkgs.bibata-cursors;
+#    name = "Bibata-Modern-Classic";
+#    size = 11;
+#  };
 
   gtk = {
     enable = true;

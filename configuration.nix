@@ -25,6 +25,9 @@
   # Zram
   zramSwap.enable = true;
 
+  # VGA
+
+
   # Enable CUPS to print documents.
   services.printing.enable = true;
 
@@ -69,7 +72,7 @@
     waybar
   ];
 
-   fonts.packages = with pkgs; [                                                                          
+  fonts.packages = with pkgs; [                                                                          
     noto-fonts                                                                                           
     noto-fonts-cjk-sans
     noto-fonts-emoji                                                                                     
