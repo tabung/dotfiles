@@ -19,14 +19,28 @@
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
   networking.networkmanager.enable = true;  # Easiest to use and most distros use this by default.
 
+  # Wireguard
+  networking.wireguard.enable = true;
+
   # Set your time zone.
   time.timeZone = "Asia/Jakarta";
 
   # Zram
   zramSwap.enable = true;
 
-  # VGA
 
+  # Battrey
+  systemd.services.battery-charge-threshold = {
+    description = "Set the battery charge threshold";
+    after = [ "multi-user.target" ];
+    startLimitBurst = 0;
+    serviceConfig = {
+      Type = "oneshot";
+      Restart = "on-failure";
+      ExecStart = "${pkgs.bash}/bin/bash -c 'echo 80 > /sys/class/power_supply/BAT0/charge_control_end_threshold'";
+    };
+    wantedBy = [ "multi-user.target" ];
+  };
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
@@ -70,6 +84,7 @@
     kitty
     wofi
     waybar
+    remmina
   ];
 
   fonts.packages = with pkgs; [                                                                          
