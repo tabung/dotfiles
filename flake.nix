@@ -8,23 +8,23 @@
   };
 
   outputs = { self, nixpkgs, home-manager, ... }:
-    let
-      lib = nixpkgs.lib;
-      system = "x86_64-linux";
-      pkgs = nixpkgs.legacyPackages.${system};
-    in {
-      nixosConfigurations = {
-        devzc0de = lib.nixosSystem {
-          inherit system;
-          modules = [ ./configuration.nix ];
-        };
-      };
-
-      homeConfigurations = {
-        r3z = home-manager.lib.homeManagerConfiguration {
-          inherit pkgs;
-          modules = [ ./home.nix ];
-        };
+  let
+    lib = nixpkgs.lib;
+    system = "x86_64-linux";
+    pkgs = nixpkgs.legacyPackages.${system};
+  in {
+    nixosConfigurations = {
+      devzc0de = lib.nixosSystem {
+        inherit system;
+        modules = [ ./configuration.nix ];
       };
     };
+
+    homeConfigurations = {
+      tabun = home-manager.lib.homeManagerConfiguration {
+        inherit pkgs;
+        modules = [ ./home.nix ];
+      };
+    };
+  };
 }
