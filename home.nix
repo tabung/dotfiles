@@ -17,7 +17,7 @@
   # environment.
   home.packages = with pkgs; [
     waybar
-    #bibata-cursors
+    qutebrowser
     flat-remix-gtk
     adwaita-icon-theme
     tmux
@@ -34,6 +34,7 @@
     };
   };
 
+  nixpkgs.config.allowUnfree = true;
 #  home.pointerCursor = {
 #    gtk.enable = true;
 #    package = pkgs.bibata-cursors;
@@ -156,6 +157,7 @@
   #  /etc/profiles/per-user/tabun/etc/profile.d/hm-session-vars.sh
   #
   home.sessionVariables = {
+    NIXOS_OZONE_WL = "1";
     # EDITOR = "emacs";
   };
 
