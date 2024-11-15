@@ -12,6 +12,7 @@
         font-family: 'Fira Code', 'Symbols Nerd Font Mono';
         font-size: 12px;
         font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
+        color: #FFFFFF;
         min-height: 20px;
       }
 
@@ -22,8 +23,8 @@
 
       #custom-arch, #workspaces {
         border-radius: 10px;
-        background-color: #11111b;
-        color: #b4befe;
+        background-color: #272121;
+        color: #FFFFFF;
         margin-top: 7px;
         margin-right: 15px;
         padding-top: 1px;
@@ -34,18 +35,18 @@
       #custom-arch {
         font-size: 20px;
         margin-left: 10px;
-        color: #b4befe;
+        color: #ffffff;
       }
 
       #workspaces button {
-        background: #11111b;
-        color: #b4befe;
+        background: #272121;
+        color: #ffffff;
       }
 
       #clock, #backlight, #pulseaudio, #bluetooth, #network, #battery{
         border-radius: 10px;
-        background-color: #11111b;
-        color: #cdd6f4;
+        background-color: #272121;
+        color: #ffffff;
         margin-top: 7px;
         padding-left: 10px;
         padding-right: 10px;
@@ -100,19 +101,19 @@
 
       # Clock Module
       clock = {
-        format = "<span color='#b4befe'> </span>{:%H:%M}";
+        format = "<span color='#ffffff'> </span>{:%H:%M}";
       };
 
       # Backlight Module
       backlight = {
         device = "amdgpu_bl1";
-        format = "<span color='#b4befe'>{icon}</span> {percent}%";
+        format = "<span color='#ffffff'>{icon}</span> {percent}%";
         format-icons = [ "" "" "" "" "" "" "" "" "" ];
       };
 
       # Pulseaudio Module
       pulseaudio = {
-        format = "<span color='#b4befe'>{icon}</span> {volume}%";
+        format = "<span color='#ffffff'>{icon}</span> {volume}%";
         format-muted = "";
         tooltip = false;
         format-icons = {
@@ -124,9 +125,9 @@
 
       # Bluetooth Module
       bluetooth = {
-        format = "<span color='#b4befe'></span> {status}";
+        format = "<span color='#ffffff'></span> {status}";
         format-disabled = "";
-        format-connected = "<span color='#b4befe'></span> {num_connections}";
+        format-connected = "<span color='#ffffff'></span> {num_connections}";
         tooltip-format = "{device_enumerate}";
         tooltip-format-enumerate-connected = "{device_alias}   {device_address}";
       };
@@ -135,17 +136,17 @@
       network = {
         interface = "wlp1s0";
         format = "{ifname}";
-        format-wifi = "<span color='#b4befe'> </span>{essid}";
+        format-wifi = "<span color='#ffffff'> </span>{essid}";
         format-ethernet = "{ipaddr}/{cidr} ";
-        format-disconnected = "<span color='#b4befe'>󰖪 </span>No Network";
+        format-disconnected = "<span color='#ffffff'>󰖪 </span>No Network";
         tooltip = false;
       };
 
       # Battery Module
       battery = {
-        format = "<span color='#b4befe'>{icon}</span> {capacity}%";
+        format = "<span color='#ffffff'>{icon}</span> {capacity}%";
         format-icons = [ "" "" "" "" "" "" "" "" "" "" ];
-        format-charging = "<span color='#b4befe'></span> {capacity}%";
+        format-charging = "<span color='#ffffff'></span> {capacity}%";
         tooltip = false;
       };
     }];

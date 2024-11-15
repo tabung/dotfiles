@@ -94,6 +94,7 @@
     liberation_ttf
     nerdfonts
     roboto-mono
+    fira-code
     font-awesome
     powerline-fonts
     corefonts
