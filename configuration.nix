@@ -7,51 +7,23 @@
 {
   imports =
     [ # Include the results of the hardware scan.
-      #./hardware-configuration.nix
-      ./systems/hardware/default.nix
-      ./modules/fonts.nix
-      ./systems/ui-environment/plasma/default.nix
+      ./hardware-configuration.nix
     ];
 
   # Use the systemd-boot EFI boot loader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
-  boot.supportedFilesystems = [ "ntfs" ];
 
-  networking.hostName = "devzc0de"; # Define your hostname.
+  # networking.hostName = "nixos"; # Define your hostname.
+  # Pick only one of the below networking options.
+  # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
   networking.networkmanager.enable = true;  # Easiest to use and most distros use this by default.
 
   # Set your time zone.
   time.timeZone = "Asia/Jakarta";
 
-  # Enable the X11 windowing system.
-  # services.xserver.enable = true;
-  # services.displayManager.sddm.enable = true;
-  # services.desktopManager.plasma6.enable = true;
-  # services.displayManager.sddm.wayland.enable = true;
-
-  # Btrfs
-  services.btrfs.autoScrub = {
-    enable = true;
-    interval = "monthly";
-    fileSystems = [ "/" ];
-  };
-
-  # Battrey
-  systemd.services.battery-charge-threshold = {
-    description = "Set the battery charge threshold";
-    after = [ "multi-user.target" ];
-    startLimitBurst = 0;
-    serviceConfig = {
-      Type = "oneshot";
-      Restart = "on-failure";
-      ExecStart = "${pkgs.bash}/bin/bash -c 'echo 80 > /sys/class/power_supply/BAT0/charge_control_end_threshold'";
-    };
-    wantedBy = [ "multi-user.target" ];
-  };
-  # Configure keymap in X11
-  # services.xserver.xkb.layout = "us";
-  # services.xserver.xkb.options = "eurosign:e,caps:escape";
+  # Zram
+  zramSwap.enable = true;
 
   # Enable CUPS to print documents.
   services.printing.enable = true;
@@ -64,116 +36,55 @@
     alsa.enable = true;
     alsa.support32Bit = true;
     pulse.enable = true;
+    jack.enable = true;
   };
+
+  hardware.bluetooth.enable = true;
 
   # Enable touchpad support (enabled default in most desktopManager).
   # services.libinput.enable = true;
-
-  # No password
-  security.sudo.wheelNeedsPassword = false;
+  nixpkgs.config.allowUnfree = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.r3z = {
+  users.users.tabun = {
     isNormalUser = true;
-    description = "Rezky Yuranda";
     shell = pkgs.zsh;
-    extraGroups = [ "wheel" "audio" "libvirtd" "video" "disk" "docker"]; # Enable ‘sudo’ for the user.
+    extraGroups = [ "wheel" "audio" "video" "disk" "docker" ]; # Enable ‘sudo’ for the user.
     packages = with pkgs; [
+      tree
     ];
   };
 
-  # Allow unfree packages
-  nixpkgs.config.allowUnfree = true;
+  programs.zsh.enable = true;
+  programs.hyprland.enable = true;
+  programs.firefox.enable = true;
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
     vim
     wget
-    busybox
-    
-    kitty   
-    libreoffice-qt
-    hunspell
-    hunspellDicts.en_US
-    jdk21
-    kget
-    obsidian
-    git
-    nodejs
-    python3
-    ripgrep
-    fd
-    lazygit
-    luarocks
-    gcc
-    unzip
-    zip
+    kitty
+    wofi
+    waybar
   ];
 
-  # Nvim
-  programs.neovim = {
-    enable = true;
-    defaultEditor = true;
-    viAlias = true;
-    vimAlias = true;
-  };
-
-  # Virtualization
-  virtualisation.docker.enable = true;
-  virtualisation.docker.storageDriver = "btrfs";
-  virtualisation.libvirtd.enable = true;
-
-  # Firefox
-  programs.firefox.enable = true;
-  programs.dconf.enable = true;
-  programs.zsh.enable = true;
-  programs.virt-manager.enable = true;
-  programs.steam.enable = true;
-
-  # Some programs need SUID wrappers, can be configured further or are
-  # started in user sessions.
-  # programs.mtr.enable = true;
-  # programs.gnupg.agent = {
-  #   enable = true;
-  #   enableSSHSupport = true;
-  # };
-
-  # List services that you want to enable:
-
-  # Enable the OpenSSH daemon.
-  # services.openssh.enable = true;
-
-  # Open ports in the firewall.
-  # networking.firewall.allowedTCPPorts = [ ... ];
-  # networking.firewall.allowedUDPPorts = [ ... ];
-  # Or disable the firewall altogether.
-  # networking.firewall.enable = false;
-
-  # Copy the NixOS configuration file and link it from the resulting system
-  # (/run/current-system/configuration.nix). This is useful in case you
-  # accidentally delete configuration.nix.
-  # system.copySystemConfiguration = true;
-
-  # This option defines the first version of NixOS you have installed on this particular machine,
-  # and is used to maintain compatibility with application data (e.g. databases) created on older NixOS versions.
-  #
-  # Most users should NEVER change this value after the initial install, for any reason,
-  # even if you've upgraded your system to a new NixOS release.
-  #
-  # This value does NOT affect the Nixpkgs version your packages and OS are pulled from,
-  # so changing it will NOT upgrade your system - see https://nixos.org/manual/nixos/stable/#sec-upgrading for how
-  # to actually do that.
-  #
-  # This value being lower than the current NixOS release does NOT mean your system is
-  # out of date, out of support, or vulnerable.
-  #
-  # Do NOT change this value unless you have manually inspected all the changes it would make to your configuration,
-  # and migrated your data accordingly.
-  #
-  # For more information, see `man configuration.nix` or https://nixos.org/manual/nixos/stable/options#opt-system.stateVersion .
-  system.stateVersion = "24.05"; # Did you read the comment?
+   fonts.packages = with pkgs; [                                                                          
+    noto-fonts                                                                                           
+    noto-fonts-cjk                                                                                       
+    noto-fonts-emoji                                                                                     
+    liberation_ttf
+    nerdfonts
+    roboto-mono
+    font-awesome
+    powerline-fonts
+    corefonts
+  ];
+  
+  # Sudo no password
+  security.sudo.wheelNeedsPassword = false;
   nix.settings.experimental-features = ["nix-command" "flakes"];
+  system.stateVersion = "24.05"; # Did you read the comment?
 
 }
 

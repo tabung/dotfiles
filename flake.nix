@@ -23,7 +23,7 @@
       homeConfigurations = {
         r3z = home-manager.lib.homeManagerConfiguration {
           inherit pkgs;
-          modules = [ ./users/default.nix ];
+          modules = [ ./home.nix ];
         };
       };
     };
