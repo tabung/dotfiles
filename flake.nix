@@ -1,4 +1,5 @@
-cription = "I hope NixOS is my last stop. I'm really tired of this hopping around";
+{
+  description = "I hope NixOS is my last stop. I'm really tired of this hopping around";
 
   inputs = {
     nixpkgs.url = "github:NixOs/nixpkgs/nixos-24.11";
