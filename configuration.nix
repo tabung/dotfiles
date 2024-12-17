@@ -123,12 +123,11 @@
     mako
   ];
 
-  # Sway
+  # Hyprland
   security.polkit.enable = true;
-  services.gnome.gnome-keyring.enable = true;
-  programs.sway = {
+  programs.hyprland = {
     enable = true;
-    wrapperFeatures.gtk = true;
+    xwayland.enable = true;
   };
 
   # Fonts

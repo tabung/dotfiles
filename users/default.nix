@@ -11,9 +11,11 @@
   # environment.
   home.packages = with pkgs;[
     git
+    wofi
     waybar
     git
     hyprpaper
+    obsidian
   ];
 
   # Allow Un free
