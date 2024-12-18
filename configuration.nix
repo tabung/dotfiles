@@ -111,6 +111,7 @@
   programs.firefox.enable = true;
   programs.dconf.enable = true;
   programs.zsh.enable = true;
+  programs.steam.enable = true;
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
@@ -122,6 +123,7 @@
     wl-clipboard
     mako
     kitty
+    lutris
   ];
 
   # Hyprland
