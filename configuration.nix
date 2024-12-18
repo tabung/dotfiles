@@ -121,6 +121,7 @@
     slurp
     wl-clipboard
     mako
+    kitty
   ];
 
   # Hyprland

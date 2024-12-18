@@ -16,6 +16,8 @@
     git
     hyprpaper
     obsidian
+    telegram-desktop
+    vscode
   ];
 
   # Allow Un free

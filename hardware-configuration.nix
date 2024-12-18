@@ -9,36 +9,36 @@
     ];
 
   boot.initrd.availableKernelModules = [ "nvme" "xhci_pci" "usbhid" "usb_storage" "sd_mod" ];
-  boot.initrd.kernelModules = ["amdgpu"];
+  boot.initrd.kernelModules = [ ];
   boot.kernelModules = [ "kvm-amd" ];
   boot.extraModulePackages = [ ];
 
   fileSystems."/" =
-    { device = "/dev/disk/by-uuid/f47dee11-0116-431b-8b35-a8ab0e703b19";
+    { device = "/dev/disk/by-uuid/c1526e2f-fe73-4892-9335-fe9209a261bb";
       fsType = "btrfs";
       options = [ "subvol=@" "compress=zstd" ];
     };
 
-  fileSystems."/nix" =
-    { device = "/dev/disk/by-uuid/f47dee11-0116-431b-8b35-a8ab0e703b19";
-      fsType = "btrfs";
-      options = [ "subvol=@nix" "compress=zstd" "noatime" ];
-    };
-
   fileSystems."/home" =
-    { device = "/dev/disk/by-uuid/f47dee11-0116-431b-8b35-a8ab0e703b19";
+    { device = "/dev/disk/by-uuid/c1526e2f-fe73-4892-9335-fe9209a261bb";
       fsType = "btrfs";
-      options = [ "subvol=@home" "compress=zstd" ];
+      options = [ "subvol=@home" "compress=zstd"];
     };
 
   fileSystems."/var/log" =
-    { device = "/dev/disk/by-uuid/f47dee11-0116-431b-8b35-a8ab0e703b19";
+    { device = "/dev/disk/by-uuid/c1526e2f-fe73-4892-9335-fe9209a261bb";
       fsType = "btrfs";
-      options = [ "subvol=@log" "compress=zstd" ];
+      options = [ "subvol=@log" "compress=zstd"];
+    };
+
+  fileSystems."/nix" =
+    { device = "/dev/disk/by-uuid/c1526e2f-fe73-4892-9335-fe9209a261bb";
+      fsType = "btrfs";
+      options = [ "subvol=@nix" "compress=zstd" "noatime"];
     };
 
   fileSystems."/boot" =
-    { device = "/dev/disk/by-uuid/4724-8BAD";
+    { device = "/dev/disk/by-uuid/F72B-59E4";
       fsType = "vfat";
       options = [ "fmask=0022" "dmask=0022" ];
     };
