@@ -103,7 +103,7 @@
     isNormalUser = true;
     shell = pkgs.zsh;
     description = "Rezky Yuranda";
-    extraGroups = [ "wheel" "audio" "video" "disk"];
+    extraGroups = [ "wheel" "audio" "video" "disk" "input"];
     packages = with pkgs; [
     ];
   };
