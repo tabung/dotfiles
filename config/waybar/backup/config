@@ -1,7 +1,7 @@
 {
   "layer": "top",
     "output": ["eDP-1", "VGA"],
-    "modules-left": ["custom/arch", "hyprland/workspaces", "hyprland/language", "keyboard-state", "hyprland/submap"],
+    "modules-left": ["custom/arch", "hyprland/workspaces"],
     "modules-center": ["clock"],
     "modules-right": ["backlight", "pulseaudio", "bluetooth", "network", "battery"],
     "custom/arch": {
@@ -19,33 +19,16 @@
         "default": ""
       }
     },
-    "hyprland/language": {
-      "format": "{} ",
-      "min-length": 5,
-      "tooltip": false
-    },
-    "keyboard-state": {
-      "capslock": true,
-      "format": "{name} {icon} ",
-      "format-icons": {
-          "locked": " ",
-          "unlocked": ""
-      }
-    },
-    "hyprland/submap": {
-        "format": "<span style=\"italic\">{}</span>"
-    },
     "clock": {
-      "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-      "format": "{:%a, %d %b, %I:%M %p}"
-     },
+      "format": "<span color='#f0e9e4'> </span>{:%H:%M}",
+    },
     "backlight": {
       "device": "amd_backlight",
-      "format": "<span color='#ffffff'>{icon}</span> {percent}%",
+      "format": "<span color='#f0e9e4'>{icon}</span> {percent}%",
       "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
     "pulseaudio": {
-      "format": "<span color='#ffffff'>{icon}</span> {volume}%",
+      "format": "<span color='#f0e9e4'>{icon}</span> {volume}%",
       "format-muted": "",
       "tooltip": false,
       "format-icons": {
@@ -55,24 +38,24 @@
       "scroll-step": 1,
     },
     "bluetooth": {
-      "format": "<span color='#ffffff'></span> {status}",
+      "format": "<span color='#f0e9e4'></span> {status}",
       "format-disabled": "", // an empty format will hide the module
-      "format-connected": "<span color='#f0e9effffff4'></span> {num_connections}",
+      "format-connected": "<span color='#f0e9e4'></span> {num_connections}",
       "tooltip-format": "{device_enumerate}",
       "tooltip-format-enumerate-connected": "{device_alias}   {device_address}"
     },
     "network": {
       "interface": "wlp1s0",
       "format": "{ifname}",
-      "format-wifi": "<span color='#f0e9ffffffe4'> </span>{essid}",
+      "format-wifi": "<span color='#f0e9e4'> </span>{essid}",
       "format-ethernet": "{ipaddr}/{cidr} ",
-      "format-disconnected": "<span color='#ffffff'>󰖪 </span>No Network",
+      "format-disconnected": "<span color='#f0e9e4'>󰖪 </span>No Network",
       "tooltip": false,
     },
     "battery": {
-      "format": "<span color='#ffffff'>{icon}</span> {capacity}%",
+      "format": "<span color='#f0e9e4'>{icon}</span> {capacity}%",
       "format-icons": ["", "", "", "", "", "", "", "", "", ""],
-      "format-charging": "<span color='#ffffff'></span> {capacity}%",
+      "format-charging": "<span color='#f0e9e4'></span> {capacity}%",
       "tooltip": false,
     },
 }
