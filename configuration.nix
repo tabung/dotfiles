@@ -21,7 +21,7 @@
 
   # Wiregurad
   networking.wireguard.enable = true;
- 
+
   # Bluetooth
   hardware.bluetooth = {
     enable = true;
@@ -41,18 +41,6 @@
 
   # Set your time zone.
   time.timeZone = "Asia/Jakarta";
-
-  # Configure network proxy if necessary
-  # networking.proxy.default = "http://user:password@proxy:port/";
-  # networking.proxy.noProxy = "127.0.0.1,localhost,internal.domain";
-
-  # Select internationalisation properties.
-  # i18n.defaultLocale = "en_US.UTF-8";
-  # console = {
-  #   font = "Lat2-Terminus16";
-  #   keyMap = "us";
-  #   useXkbConfig = true; # use xkb.options in tty.
-  # };
 
   # Power Manjement
   powerManagement.enable = true;
@@ -74,10 +62,6 @@
       STOP_CHARGE_THRESH_BAT0 = 80; # 80 and above it stops charging
     };
   };
-
-  # Configure keymap in X11
-  # services.xserver.xkb.layout = "us";
-  # services.xserver.xkb.options = "eurosign:e,caps:escape";
 
   # Enable CUPS to print documents.
   # services.printing.enable = true;
@@ -101,43 +85,38 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.tabun = {
     isNormalUser = true;
-    shell = pkgs.zsh;
-    description = "Rezky Yuranda";
-    extraGroups = [ "wheel" "audio" "video" "disk" "input"];
+    extraGroups = [ "wheel" "audio" "video" "disk"]; # Enable ‘sudo’ for the user.
     packages = with pkgs; [
+      tree
+      xdg-desktop-portal-hyprland
     ];
   };
 
   programs.firefox.enable = true;
   programs.dconf.enable = true;
-  programs.zsh.enable = true;
-  programs.steam.enable = true;
-
-  # List packages installed in system profile. To search, run:
-  # $ nix search wget
-  environment.systemPackages = with pkgs; [
-    vim
-    wget
-    grim
-    slurp
-    wl-clipboard
-    mako
-    kitty
-    lutris
-  ];
-
-  # Hyprland
   security.polkit.enable = true;
   programs.hyprland = {
     enable = true;
     xwayland.enable = true;
   };
 
+  # List packages installed in system profile. To search, run:
+  # $ nix search wget
+  environment.systemPackages = with pkgs; [
+    vim
+    grim
+    slurp
+    wget
+    kitty
+  ];
+
   # Fonts
   fonts.packages = with pkgs; [
     noto-fonts
     noto-fonts-cjk-sans
     noto-fonts-emoji
+    roboto
+    roboto-mono
     corefonts
     nerdfonts
     font-awesome
@@ -153,10 +132,12 @@
     defaultFonts = {
       serif = [ "Noto Serif" "Source Han Serif" ];
       sansSerif = [ "Noto Sans" "Source Han Sans" ];
+      monospace = ["Roboto Mono"];
     };
   };
 
   system.stateVersion = "24.11"; # Did you read the comment?
   nix.settings.experimental-features = ["nix-command" "flakes"];
+
 }
 

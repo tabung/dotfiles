@@ -13,32 +13,33 @@
   boot.kernelModules = [ "kvm-amd" ];
   boot.extraModulePackages = [ ];
 
+
   fileSystems."/" =
-    { device = "/dev/disk/by-uuid/c1526e2f-fe73-4892-9335-fe9209a261bb";
+    { device = "/dev/disk/by-uuid/c865210a-eed2-4ad3-ad91-fbb85bd2e93c";
       fsType = "btrfs";
-      options = [ "subvol=@" "compress=zstd" ];
+      options = [ "subvol=@" "compress=zstd" "noatime"];
     };
 
   fileSystems."/home" =
-    { device = "/dev/disk/by-uuid/c1526e2f-fe73-4892-9335-fe9209a261bb";
+    { device = "/dev/disk/by-uuid/c865210a-eed2-4ad3-ad91-fbb85bd2e93c";
       fsType = "btrfs";
-      options = [ "subvol=@home" "compress=zstd"];
-    };
-
-  fileSystems."/var/log" =
-    { device = "/dev/disk/by-uuid/c1526e2f-fe73-4892-9335-fe9209a261bb";
-      fsType = "btrfs";
-      options = [ "subvol=@log" "compress=zstd"];
+      options = [ "subvol=@home" "compress=zstd" "noatime"];
     };
 
   fileSystems."/nix" =
-    { device = "/dev/disk/by-uuid/c1526e2f-fe73-4892-9335-fe9209a261bb";
+    { device = "/dev/disk/by-uuid/c865210a-eed2-4ad3-ad91-fbb85bd2e93c";
       fsType = "btrfs";
       options = [ "subvol=@nix" "compress=zstd" "noatime"];
     };
 
+  fileSystems."/var/log" =
+    { device = "/dev/disk/by-uuid/c865210a-eed2-4ad3-ad91-fbb85bd2e93c";
+      fsType = "btrfs";
+      options = [ "subvol=@log" "compress=zstd" "noatime"];
+    };
+
   fileSystems."/boot" =
-    { device = "/dev/disk/by-uuid/F72B-59E4";
+    { device = "/dev/disk/by-uuid/E592-210A";
       fsType = "vfat";
       options = [ "fmask=0022" "dmask=0022" ];
     };
