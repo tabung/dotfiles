@@ -11,6 +11,7 @@
     ];
 
   # Use the systemd-boot EFI boot loader.
+  boot.kernelPackages = pkgs.linuxPackages_latest;
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
