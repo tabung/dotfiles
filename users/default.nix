@@ -6,8 +6,8 @@
     ./apps/kitty.nix
     ./apps/tmux.nix
     ./apps/zsh.nix
-    ./configs/hyprland.nix
-    ./configs/waybar.nix
+    #./configs/hyprland.nix
+    #./configs/waybar.nix
   ];
   # Home Manager needs a bit of information about you and the paths it should
   # manage.

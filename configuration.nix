@@ -86,6 +86,7 @@
   users.users.tabun = {
     isNormalUser = true;
     extraGroups = [ "wheel" "audio" "video" "disk"]; # Enable ‘sudo’ for the user.
+    shell = pkgs.zsh;
     packages = with pkgs; [
       tree
       xdg-desktop-portal-hyprland
@@ -93,6 +94,7 @@
   };
 
   programs.firefox.enable = true;
+  programs.zsh.enable = true;
   programs.dconf.enable = true;
   security.polkit.enable = true;
   programs.hyprland = {
