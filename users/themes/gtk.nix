@@ -14,8 +14,8 @@
   gtk = {
     enable = true;
     theme = {
-      package = pkgs.layan-gtk-theme;
-      name = "Layan-Dark";
+      package = pkgs.gnome-themes-extra;
+      name = "Adwaita-dark";
     };
 
     iconTheme = {

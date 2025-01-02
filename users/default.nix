@@ -26,6 +26,7 @@
     obsidian
     telegram-desktop
     vscode
+    pavucontrol
   ];
 
   # Allow Un free
