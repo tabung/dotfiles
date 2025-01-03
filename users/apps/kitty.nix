@@ -12,6 +12,7 @@
       background_opacity = "0.9";
       shell = "/bin/sh -c 'tmux new-session -A -s main'";
       background_blur = 5;
+      font_size = 10.0;
       symbol_map = let
         mappings = [
           "U+23FB-U+23FE"

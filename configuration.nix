@@ -91,6 +91,8 @@
     packages = with pkgs; [
       tree
       xdg-desktop-portal-hyprland
+      hypridle
+      hyprlock
     ];
   };
 
@@ -111,6 +113,7 @@
     slurp
     wget
     kitty
+    remmina
   ];
 
   # Fonts

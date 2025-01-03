@@ -27,6 +27,7 @@
     telegram-desktop
     vscode
     pavucontrol
+    wlogout
   ];
 
   # Allow Un free
