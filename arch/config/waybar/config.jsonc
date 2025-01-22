@@ -1,0 +1,40 @@
+// -*- mode: jsonc -*-
+{
+    // "layer": "top", // Waybar at top layer
+    "position": "top", // Waybar position (top|bottom|left|right)
+    "height": 10, // Waybar height (to be removed for auto height)
+    "margin-left": 0,
+    "margin-right": 0,
+    "spacing": 0, // Gaps between modules (4px)
+    // Position TOP
+    "layer": "top",
+    "margin-top": 7,
+    "margin-bottom": 0, 
+
+    "include": ["~/.config/waybar/modules.json"],
+
+    "modules-left": [
+      "custom/appmenu",
+      "wlr/taskbar",
+      "group/qquicklinks",
+      "hyprland/window"
+    ],
+    "modules-center": [
+      "hyprland/workspaces"
+    ],
+    "modules-right": [
+      "pulseaudio",
+      "network",
+      "battery",
+      "group/hardware",
+      "clock",
+      "tray",
+      "custom/exit"
+    ],
+    "group/hardware" : {
+      "orientation": "horizontal",
+      "modules": [
+        "memory", "disk", "cpu"
+      ]
+    }
+}

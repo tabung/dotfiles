@@ -1,0 +1,4 @@
+-Xmx2048m
+-Dide.managed.by.toolbox=/home/tabun/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox
+-Dtoolbox.notification.token=9ce5a142-3cab-46e0-98db-b69c9860dfbe
+-Dtoolbox.notification.portFile=/home/tabun/.cache/JetBrains/Toolbox/ports/7bde3da8-38c4-4daa-b568-1355518f84c4.port

@@ -1,0 +1,28 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="ShowSettings">
+      <i c="1" l="1737353881886" />
+    </e>
+    <e n="WelcomeScreen.CreateNewProject">
+      <i c="1" l="1737353854213" />
+    </e>
+    <e n="com.android.tools.adtui.actions.DropDownAction">
+      <i c="2" l="1737354067462" />
+    </e>
+    <e n="com.android.tools.idea.devicemanagerv2.DeleteAction">
+      <i c="1" l="1737354051349" />
+    </e>
+    <e n="com.android.tools.idea.devicemanagerv2.DeviceManagerPanel$toAnAction$2">
+      <i c="2" l="1737354069170" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="21" l="1737354057897" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="1" l="1737353875064" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="1" l="1737353864853" />
+    </e>
+  </component>
+</application>
