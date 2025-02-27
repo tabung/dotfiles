@@ -3,6 +3,11 @@
 {
   # Home Manager needs a bit of information about you and the paths it should
   # manage.
+
+  imports = [
+    ./apps/zsh.nix
+  ];
+
   home.username = "tabun";
   home.homeDirectory = "/home/tabun";
   home.stateVersion = "24.11"; # Please read the comment before changing.
@@ -49,6 +54,15 @@
           vitals.extensionUuid 
           battery-health-charging.extensionUuid
         ];
+      };
+      "org/gnome/desktop/background" = {
+        color-shading-type = "solid";
+        picture-uri = "file:///home/tabun/Pictures/nature.jpg";
+        picture-uri-dark = "file:///home/tabun/Pictures/nature.jpg";
+      };
+
+      "org/gnome/desktop/interface" = {
+        icon-theme = "Tela-circle-dark";
       };
     };
   };
