@@ -8,25 +8,30 @@
     ./apps/zsh.nix
   ];
 
-  home.username = "tabun";
-  home.homeDirectory = "/home/tabun";
+  home.username = "r3z";
+  home.homeDirectory = "/home/r3z";
   home.stateVersion = "24.11"; # Please read the comment before changing.
 
   # The home.packages option allows you to install Nix packages into your
   # environment.
   home.packages = with pkgs; [
     remmina
-    obsidian
-    zotero
-    libreoffice-fresh
-    hunspell
     heroic
+
+    obsidian
+    libreoffice
+    zotero
+    
+    android-studio
+    jetbrains.phpstorm
+    jetbrains.goland
+    jetbrains.datagrip
+    jetbrains.jdk
+    
     tela-circle-icon-theme
     gnome-tweaks
     gnomeExtensions.blur-my-shell
-    gnomeExtensions.vitals
     gnomeExtensions.caffeine
-    gnomeExtensions.battery-health-charging
   ];
 
   nixpkgs.config.allowUnfree = true;
@@ -50,15 +55,7 @@
         enabled-extensions = with pkgs.gnomeExtensions; [
           blur-my-shell.extensionUuid
           caffeine.extensionUuid
-          #dash-to-dock.extensionUuid
-          vitals.extensionUuid 
-          battery-health-charging.extensionUuid
         ];
-      };
-      "org/gnome/desktop/background" = {
-        color-shading-type = "solid";
-        picture-uri = "file:///home/tabun/Pictures/nature.jpg";
-        picture-uri-dark = "file:///home/tabun/Pictures/nature.jpg";
       };
 
       "org/gnome/desktop/interface" = {

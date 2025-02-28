@@ -14,33 +14,14 @@
   boot.extraModulePackages = [ ];
 
   fileSystems."/" =
-    { device = "/dev/disk/by-uuid/112c5d3d-17be-436c-8534-8cb9509cb2b1";
-      fsType = "btrfs";
-      options = [ "subvol=@" "compress=zstd"];
-    };
-
-  fileSystems."/home" =
-    { device = "/dev/disk/by-uuid/112c5d3d-17be-436c-8534-8cb9509cb2b1";
-      fsType = "btrfs";
-      options = [ "subvol=@home" "compress=zstd"];
-    };
-
-  fileSystems."/nix" =
-    { device = "/dev/disk/by-uuid/112c5d3d-17be-436c-8534-8cb9509cb2b1";
-      fsType = "btrfs";
-      options = [ "subvol=@nix" "compress=zstd" "noatime"];
-    };
-
-  fileSystems."/var/log" =
-    { device = "/dev/disk/by-uuid/112c5d3d-17be-436c-8534-8cb9509cb2b1";
-      fsType = "btrfs";
-      options = [ "subvol=@log" "compress=zstd"];
+    { device = "/dev/disk/by-uuid/d6e2bacf-60e6-4e2a-9261-2c9f03124ded";
+      fsType = "ext4";
     };
 
   fileSystems."/boot" =
-    { device = "/dev/disk/by-uuid/2758-018C";
+    { device = "/dev/disk/by-uuid/CC3E-BF2C";
       fsType = "vfat";
-      options = [ "fmask=0022" "dmask=0022" ];
+      options = [ "fmask=0077" "dmask=0077" ];
     };
 
   swapDevices = [ ];
