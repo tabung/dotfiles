@@ -22,16 +22,16 @@
     libreoffice
     zotero
     
-    android-studio
-    jetbrains.phpstorm
-    jetbrains.goland
-    jetbrains.datagrip
-    jetbrains.jdk
+    #android-studio
+    #jetbrains.phpstorm
+    #jetbrains.goland
+    #jetbrains.datagrip
+    #jetbrains.jdk
     
     tela-circle-icon-theme
     gnome-tweaks
-    gnomeExtensions.blur-my-shell
     gnomeExtensions.caffeine
+    gnomeExtensions.battery-health-charging
   ];
 
   nixpkgs.config.allowUnfree = true;
@@ -46,15 +46,15 @@
   dconf = {
     enable = true;
     settings = {
-      "org/gnome/desktop/interface".color-scheme = "prefer-dark";
+      #"org/gnome/desktop/interface".color-scheme = "prefer-dark";
       "org/gnome/mutter" = {
         experimental-features = [ "scale-monitor-framebuffer"  "xwayland-native-scaling" ];
       };
       "org/gnome/shell" = {
         disable-user-extensions = false;
         enabled-extensions = with pkgs.gnomeExtensions; [
-          blur-my-shell.extensionUuid
           caffeine.extensionUuid
+          battery-health-charging.extensionUuid
         ];
       };
 
