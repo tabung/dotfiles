@@ -71,6 +71,9 @@
   # Enable touchpad support (enabled default in most desktopManager).
   # services.libinput.enable = true;
 
+  # Sudo no password
+  security.sudo.wheelNeedsPassword = false;
+
   nixpkgs.config.allowUnfree = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
@@ -85,6 +88,7 @@
   };
 
   programs.firefox.enable = true;
+  programs.zsh.enable = true;
   programs.hyprland = {
     enable = true;
     xwayland.enable = true;

@@ -22,11 +22,11 @@
     libreoffice
     zotero
     
-    #android-studio
+    android-studio
     #jetbrains.phpstorm
     #jetbrains.goland
-    #jetbrains.datagrip
-    #jetbrains.jdk
+    jetbrains.datagrip
+    jetbrains.jdk
     
     tela-circle-icon-theme
     tela-icon-theme
