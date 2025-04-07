@@ -29,6 +29,7 @@
     #jetbrains.jdk
     
     tela-circle-icon-theme
+    tela-icon-theme
     gnome-tweaks
     gnomeExtensions.caffeine
     gnomeExtensions.battery-health-charging
@@ -59,7 +60,7 @@
       };
 
       "org/gnome/desktop/interface" = {
-        icon-theme = "Tela-circle-dark";
+        icon-theme = "Tela-light";
       };
     };
   };

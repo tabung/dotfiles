@@ -19,8 +19,22 @@
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
   networking.networkmanager.enable = true;  # Easiest to use and most distros use this by default.
 
+  # Wiregurad
+  networking.wireguard.enable = true;
+
   # Set your time zone.
   time.timeZone = "Asia/Jakarta";
+  
+  # Zram
+  zramSwap.enable = true;
+
+  # VGA
+  hardware.graphics = {
+    enable = true;
+    enable32Bit = true;
+    extraPackages = with pkgs; [ amdvlk ];
+    extraPackages32 = with pkgs; [ driversi686Linux.amdvlk];
+  };
 
   # Configure network proxy if necessary
   # networking.proxy.default = "http://user:password@proxy:port/";
@@ -62,7 +76,8 @@
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users.users.r3z = {
     isNormalUser = true;
-    extraGroups = [ "wheel" ]; # Enable ‘sudo’ for the user.
+    shell = pkgs.zsh;
+    extraGroups = [ "wheel" "audio" "video" "disk" ]; # Enable ‘sudo’ for the user.
     packages = with pkgs; [
       tree
       dmenu
@@ -88,6 +103,7 @@
     # Fonts
   fonts.packages = with pkgs; [
     noto-fonts
+    adwaita-fonts
     noto-fonts-cjk-sans
     noto-fonts-emoji
     corefonts
@@ -108,6 +124,5 @@
 
   system.stateVersion = "24.11"; # Did you read the comment?
   nix.settings.experimental-features = ["nix-command" "flakes"];
-
 }
 
